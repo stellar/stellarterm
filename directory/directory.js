@@ -8,6 +8,32 @@ let directory = new DirectoryBuilder();
 directory.DirectoryBuilder = DirectoryBuilder;
 
 directory.addAnchor({
+  domain: 'nezly.com',
+  website: 'https://nezly.com',
+  logo: 'nezly.com',
+  color: '#523b83',
+  displayName: 'Nezly',
+});
+
+directory.addAsset('nezly.com', {
+  code: 'NEZ',
+  issuer: 'GDGKBRCPW4C3ENNC5C64PE6U33MG52GBKFXOK5P3OSWF74DAOXRXV6OJ',
+  instructions: 'https://nezly.com',
+});
+
+directory.addAsset('nezly.com', {
+  code: 'ETH',
+  issuer: 'GDGKBRCPW4C3ENNC5C64PE6U33MG52GBKFXOK5P3OSWF74DAOXRXV6OJ',
+  instructions: 'https://nezly.com',
+});
+
+directory.addAsset('nezly.com', {
+  code: 'BTC',
+  issuer: 'GDGKBRCPW4C3ENNC5C64PE6U33MG52GBKFXOK5P3OSWF74DAOXRXV6OJ',
+  instructions: 'https://nezly.com',
+});
+
+directory.addAnchor({
   domain: 'stronghold.co',
   website: 'https://stronghold.co',
   logo: 'stronghold.co',
